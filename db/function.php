@@ -4,7 +4,7 @@ class Databasedx {
 
 	function __construct() {
 		try {
-			$conn = new PDO("mysql:host=localhost;dbname=saatnyao_radio", "saatnyao_andra", "red2002");
+			$conn = new PDO("mysql:host=localhost;dbname=", "", "");
 		} catch (PDOException $e) {
 			// alert('Try Again');
 		}
